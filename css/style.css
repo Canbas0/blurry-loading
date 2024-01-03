@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+}
+
+.bg {
+    background-image: url(/img/Besiktas.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.load-text {
+    position: absolute;
+    z-index: 1;
+    font-size: 72px;
+    color:red;
+    top: 15%;
+}
